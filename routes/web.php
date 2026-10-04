@@ -8,3 +8,6 @@ Route::get('/', function () {
 
 Route::view('/profil-kelas', 'profil-kelas')
     ->name('profil-kelas');
+
+Route::view('/bantuan', 'bantuan')
+    ->name('bantuan');
